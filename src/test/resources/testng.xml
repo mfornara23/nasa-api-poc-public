@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Nasa Suite">
+    <groups>
+        <run>
+            <include name="ALL"/>
+        </run>
+    </groups>
+    <test name="Mars Rover Photos Tests">
+        <classes>
+            <class name="MarsRoverPhotosTests"/>
+        </classes>
+    </test>
+    <test name="Integration Tests">
+        <classes>
+            <class name="OtherTests"/>
+        </classes>
+    </test>
+</suite>
